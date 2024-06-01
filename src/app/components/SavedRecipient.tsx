@@ -22,8 +22,8 @@ const SavedRecipient = () => {
             className="bg-white text-black w-[15%] text-center rounded-2xl h-32 p-5"
           >
             <Image src={Profile} alt="profilePic" className="rounded-full" />
-            <p className="text-sm">{name}</p>
-            <p className="text-sm text-gray-300">$Cro tag</p>
+            <p className="text-xs">{name}</p>
+            <p className="text-xs text-gray-300">$Cro tag</p>
           </div>
         ))}
       </div>
