@@ -13,7 +13,7 @@ const SavedRecipient = () => {
       <div className="flex text-white gap-5">
         <div className="bg-[#3f9f98] w-[15%] text-center rounded-2xl h-32 p-5">
           <IoMdAddCircle className="text-2xl mx-auto mb-3" />
-          <p>New Recipient</p>
+          <p className="text-sm">New Recipient</p>
         </div>
 
         {SavedRecipientArr.map((name) => (
